@@ -142,36 +142,36 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Nr-Tc-TIh">
-                                <rect key="frame" x="12" y="543" width="62" height="61"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Nr-Tc-TIh" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="36" y="545" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="zlH-n4-1BB">
-                                <rect key="frame" x="267" y="543" width="62" height="61"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="aTg-Lh-G0l" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="88" y="525" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="cCM-wN-coa">
-                                <rect key="frame" x="222" y="543" width="62" height="61"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="oE8-ka-wbm" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="158" y="560" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="oPY-kI-O75">
-                                <rect key="frame" x="189" y="543" width="62" height="61"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="E92-fG-1NY" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="339" y="545" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="wLR-3J-vpP">
-                                <rect key="frame" x="152" y="543" width="62" height="61"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="oBw-R2-dA8" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="172" y="545" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nf8-Uc-2nW">
-                                <rect key="frame" x="119" y="543" width="62" height="61"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="rKI-Zu-U2f" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="209" y="545" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="IlX-qz-714">
-                                <rect key="frame" x="82" y="543" width="62" height="61"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="iek-3j-Bs0" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="252" y="545" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="JLR-bY-fY4">
-                                <rect key="frame" x="49" y="543" width="62" height="61"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="nK4-lb-MET" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="279" y="545" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5e-AT-F2s">
@@ -181,23 +181,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ych-Rf-pFa">
-                                <rect key="frame" x="310" y="543" width="62" height="61"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="hoG-nA-K7B" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="98" y="560" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="Apple1" destination="9Nr-Tc-TIh" id="yHs-pX-Uu2"/>
-                        <outlet property="Apple2" destination="JLR-bY-fY4" id="59O-qA-UQn"/>
-                        <outlet property="Apple3" destination="IlX-qz-714" id="rv8-Dt-TdP"/>
-                        <outlet property="Apple4" destination="Nf8-Uc-2nW" id="L6t-2r-2Sw"/>
-                        <outlet property="Apple5" destination="wLR-3J-vpP" id="2OP-wc-cg3"/>
-                        <outlet property="Apple6" destination="oPY-kI-O75" id="E93-nM-q8a"/>
-                        <outlet property="Apple7" destination="cCM-wN-coa" id="jzn-uv-nov"/>
-                        <outlet property="Apple8" destination="zlH-n4-1BB" id="aOX-XM-YXe"/>
-                        <outlet property="Apple9" destination="Ych-Rf-pFa" id="mE9-HP-Rfq"/>
                         <outlet property="message" destination="R5e-AT-F2s" id="Lqk-hn-C2C"/>
                         <outlet property="resultLabel" destination="TbV-8c-Crm" id="8cC-cd-RPY"/>
                     </connections>

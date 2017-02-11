@@ -29,6 +29,7 @@
 		5E7A5B0E1E3F764400EE0EFE /* George_PreSchoolAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A5B0D1E3F764400EE0EFE /* George_PreSchoolAppTests.swift */; };
 		5E7A5B191E3F764400EE0EFE /* George_PreSchoolAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A5B181E3F764400EE0EFE /* George_PreSchoolAppUITests.swift */; };
 		5ECFA19B1E4CE5DF00FB74EF /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFA19A1E4CE5DF00FB74EF /* apple.png */; };
+		5EFF96FE1E4EA55500357AFD /* DraggedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF96FD1E4EA55500357AFD /* DraggedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		5E7A5B181E3F764400EE0EFE /* George_PreSchoolAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = George_PreSchoolAppUITests.swift; sourceTree = "<group>"; };
 		5E7A5B1A1E3F764400EE0EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ECFA19A1E4CE5DF00FB74EF /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		5EFF96FD1E4EA55500357AFD /* DraggedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				5E24F1DE1E476DB6004D0FC0 /* Number Images */,
 				5E7A5AF81E3F764400EE0EFE /* AppDelegate.swift */,
 				5E7A5AFA1E3F764400EE0EFE /* ViewController.swift */,
+				5EFF96FD1E4EA55500357AFD /* DraggedImageView.swift */,
 				5E7A5AFC1E3F764400EE0EFE /* Main.storyboard */,
 				5E7A5AFF1E3F764400EE0EFE /* Assets.xcassets */,
 				5E7A5B011E3F764400EE0EFE /* LaunchScreen.storyboard */,
@@ -339,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E7A5AFB1E3F764400EE0EFE /* ViewController.swift in Sources */,
+				5EFF96FE1E4EA55500357AFD /* DraggedImageView.swift in Sources */,
 				5E7A5AF91E3F764400EE0EFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

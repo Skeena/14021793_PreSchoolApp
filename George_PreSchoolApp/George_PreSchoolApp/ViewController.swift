@@ -11,8 +11,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var locaton = CGPoint(x: 0, y: 0) //location
-    
     var MyNumbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     
     var Num1 = 0
@@ -21,44 +19,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var message: UILabel!
-    
-    @IBOutlet weak var Apple1: UIImageView!
-    @IBOutlet weak var Apple2: UIImageView!
-    @IBOutlet weak var Apple3: UIImageView!
-    @IBOutlet weak var Apple4: UIImageView!
-    @IBOutlet weak var Apple5: UIImageView!
-    @IBOutlet weak var Apple6: UIImageView!
-    @IBOutlet weak var Apple7: UIImageView!
-    @IBOutlet weak var Apple8: UIImageView!
-    @IBOutlet weak var Apple9: UIImageView!
-    
-    // Where Touch Starts
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
-        let touch : UITouch! = touches.first! as UITouch
-        
-        locaton = touch.location(in: self.view)
-        
-        Apple1.center = locaton
-    }
-    // When Moved
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
-        let touch : UITouch! = touches.first! as UITouch
-        
-        locaton = touch.location(in: self.view)
-        
-        Apple1.center = locaton
-    }
-    
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        // Start Location Of Apple1
-        Apple1.center = CGPoint(x: 28, y: 550)
+
         
         Num1 = MyNumbers[Int(arc4random_uniform(9))]
         Num2 = MyNumbers[Int(arc4random_uniform(9))]
