@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plate_white.png" translatesAutoresizingMaskIntoConstraints="NO" id="e8h-uG-eJd">
-                                <rect key="frame" x="-7" y="494" width="428" height="192"/>
+                                <rect key="frame" x="-14" y="565" width="428" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0NZ-Y3-c2T" userLabel="Button 1">
@@ -139,39 +139,31 @@
                                 <rect key="frame" x="7" y="178" width="387" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="81"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Nr-Tc-TIh" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="36" y="545" width="62" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="aTg-Lh-G0l" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="88" y="525" width="62" height="61"/>
+                                <rect key="frame" x="28" y="610" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="oE8-ka-wbm" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="158" y="560" width="62" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="E92-fG-1NY" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="339" y="545" width="62" height="61"/>
+                                <rect key="frame" x="175" y="610" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="oBw-R2-dA8" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="172" y="545" width="62" height="61"/>
+                                <rect key="frame" x="213" y="620" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="rKI-Zu-U2f" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="209" y="545" width="62" height="61"/>
+                                <rect key="frame" x="283" y="620" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="iek-3j-Bs0" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="252" y="545" width="62" height="61"/>
+                                <rect key="frame" x="245" y="620" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="nK4-lb-MET" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="279" y="545" width="62" height="61"/>
+                                <rect key="frame" x="70" y="590" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5e-AT-F2s">
@@ -182,11 +174,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="hoG-nA-K7B" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="98" y="560" width="62" height="61"/>
+                                <rect key="frame" x="129" y="620" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="aTg-Lh-G0l" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="79" y="631" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="E92-fG-1NY" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="332" y="603" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="message" destination="R5e-AT-F2s" id="Lqk-hn-C2C"/>
