@@ -21,15 +21,24 @@
 		5E24F1E61E4776F4004D0FC0 /* play_again.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E24F1E11E4776F4004D0FC0 /* play_again.png */; };
 		5E24F1E71E4776F4004D0FC0 /* star_kids.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E24F1E21E4776F4004D0FC0 /* star_kids.png */; };
 		5E24F1E81E4776F4004D0FC0 /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E24F1E31E4776F4004D0FC0 /* thumbs_up.png */; };
+		5E401E7F1E6EFEF5007B9455 /* apple 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E401E771E6EFEF5007B9455 /* apple 3.png */; };
+		5E401E801E6EFEF5007B9455 /* apple 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E401E781E6EFEF5007B9455 /* apple 4.png */; };
+		5E401E811E6EFEF5007B9455 /* apple 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E401E791E6EFEF5007B9455 /* apple 5.png */; };
+		5E401E821E6EFEF5007B9455 /* apple 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E401E7A1E6EFEF5007B9455 /* apple 6.png */; };
+		5E401E831E6EFEF5007B9455 /* apple 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E401E7B1E6EFEF5007B9455 /* apple 7.png */; };
+		5E401E841E6EFEF5007B9455 /* apple 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E401E7C1E6EFEF5007B9455 /* apple 8.png */; };
+		5E401E881E6EFFA3007B9455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E401E861E6EFFA3007B9455 /* Main.storyboard */; };
+		5E401E8C1E6F01B0007B9455 /* apple2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E401E8B1E6F01B0007B9455 /* apple2.png */; };
+		5E401E8E1E6F01F2007B9455 /* apple1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E401E8D1E6F01F2007B9455 /* apple1.png */; };
+		5E401E901E6F0212007B9455 /* apple9.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E401E8F1E6F0212007B9455 /* apple9.png */; };
+		5E401E921E6F02D2007B9455 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E401E911E6F02D2007B9455 /* apple.png */; };
 		5E5AE2A01E5F81DB00884DE5 /* Top-Header-Grass-Sky-Background-JPG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E5AE29F1E5F81DB00884DE5 /* Top-Header-Grass-Sky-Background-JPG.jpg */; };
 		5E7A5AF91E3F764400EE0EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A5AF81E3F764400EE0EFE /* AppDelegate.swift */; };
 		5E7A5AFB1E3F764400EE0EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A5AFA1E3F764400EE0EFE /* ViewController.swift */; };
-		5E7A5AFE1E3F764400EE0EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7A5AFC1E3F764400EE0EFE /* Main.storyboard */; };
 		5E7A5B001E3F764400EE0EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7A5AFF1E3F764400EE0EFE /* Assets.xcassets */; };
 		5E7A5B031E3F764400EE0EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7A5B011E3F764400EE0EFE /* LaunchScreen.storyboard */; };
 		5E7A5B0E1E3F764400EE0EFE /* George_PreSchoolAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A5B0D1E3F764400EE0EFE /* George_PreSchoolAppTests.swift */; };
 		5E7A5B191E3F764400EE0EFE /* George_PreSchoolAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A5B181E3F764400EE0EFE /* George_PreSchoolAppUITests.swift */; };
-		5ECFA19B1E4CE5DF00FB74EF /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFA19A1E4CE5DF00FB74EF /* apple.png */; };
 		5EFF96FE1E4EA55500357AFD /* DraggedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF96FD1E4EA55500357AFD /* DraggedImageView.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,11 +74,21 @@
 		5E24F1E11E4776F4004D0FC0 /* play_again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_again.png; sourceTree = "<group>"; };
 		5E24F1E21E4776F4004D0FC0 /* star_kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_kids.png; sourceTree = "<group>"; };
 		5E24F1E31E4776F4004D0FC0 /* thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_up.png; sourceTree = "<group>"; };
+		5E401E771E6EFEF5007B9455 /* apple 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple 3.png"; sourceTree = "<group>"; };
+		5E401E781E6EFEF5007B9455 /* apple 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple 4.png"; sourceTree = "<group>"; };
+		5E401E791E6EFEF5007B9455 /* apple 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple 5.png"; sourceTree = "<group>"; };
+		5E401E7A1E6EFEF5007B9455 /* apple 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple 6.png"; sourceTree = "<group>"; };
+		5E401E7B1E6EFEF5007B9455 /* apple 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple 7.png"; sourceTree = "<group>"; };
+		5E401E7C1E6EFEF5007B9455 /* apple 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple 8.png"; sourceTree = "<group>"; };
+		5E401E871E6EFFA3007B9455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E401E8B1E6F01B0007B9455 /* apple2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple2.png; sourceTree = "<group>"; };
+		5E401E8D1E6F01F2007B9455 /* apple1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple1.png; sourceTree = "<group>"; };
+		5E401E8F1E6F0212007B9455 /* apple9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple9.png; sourceTree = "<group>"; };
+		5E401E911E6F02D2007B9455 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = ../../images/apple.png; sourceTree = "<group>"; };
 		5E5AE29F1E5F81DB00884DE5 /* Top-Header-Grass-Sky-Background-JPG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Top-Header-Grass-Sky-Background-JPG.jpg"; sourceTree = "<group>"; };
 		5E7A5AF51E3F764400EE0EFE /* George_PreSchoolApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = George_PreSchoolApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7A5AF81E3F764400EE0EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E7A5AFA1E3F764400EE0EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5E7A5AFD1E3F764400EE0EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E7A5AFF1E3F764400EE0EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E7A5B021E3F764400EE0EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E7A5B041E3F764400EE0EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,7 +98,6 @@
 		5E7A5B141E3F764400EE0EFE /* George_PreSchoolAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = George_PreSchoolAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7A5B181E3F764400EE0EFE /* George_PreSchoolAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = George_PreSchoolAppUITests.swift; sourceTree = "<group>"; };
 		5E7A5B1A1E3F764400EE0EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5ECFA19A1E4CE5DF00FB74EF /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 		5EFF96FD1E4EA55500357AFD /* DraggedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,7 +146,16 @@
 		5E24F1E91E4776FE004D0FC0 /* Other Images */ = {
 			isa = PBXGroup;
 			children = (
-				5ECFA19A1E4CE5DF00FB74EF /* apple.png */,
+				5E401E911E6F02D2007B9455 /* apple.png */,
+				5E401E8D1E6F01F2007B9455 /* apple1.png */,
+				5E401E8B1E6F01B0007B9455 /* apple2.png */,
+				5E401E771E6EFEF5007B9455 /* apple 3.png */,
+				5E401E781E6EFEF5007B9455 /* apple 4.png */,
+				5E401E791E6EFEF5007B9455 /* apple 5.png */,
+				5E401E7A1E6EFEF5007B9455 /* apple 6.png */,
+				5E401E7B1E6EFEF5007B9455 /* apple 7.png */,
+				5E401E7C1E6EFEF5007B9455 /* apple 8.png */,
+				5E401E8F1E6F0212007B9455 /* apple9.png */,
 				5E24F1DF1E4776F4004D0FC0 /* plate_white.png */,
 				5E5AE29F1E5F81DB00884DE5 /* Top-Header-Grass-Sky-Background-JPG.jpg */,
 				5E24F1E11E4776F4004D0FC0 /* play_again.png */,
@@ -166,8 +193,8 @@
 				5E7A5AF81E3F764400EE0EFE /* AppDelegate.swift */,
 				5EFF96FD1E4EA55500357AFD /* DraggedImageView.swift */,
 				5E7A5AFA1E3F764400EE0EFE /* ViewController.swift */,
-				5E7A5AFC1E3F764400EE0EFE /* Main.storyboard */,
 				5E7A5B011E3F764400EE0EFE /* LaunchScreen.storyboard */,
+				5E401E861E6EFFA3007B9455 /* Main.storyboard */,
 				5E7A5AFF1E3F764400EE0EFE /* Assets.xcassets */,
 				5E7A5B041E3F764400EE0EFE /* Info.plist */,
 			);
@@ -305,16 +332,25 @@
 				5E24F1E71E4776F4004D0FC0 /* star_kids.png in Resources */,
 				5E7A5B031E3F764400EE0EFE /* LaunchScreen.storyboard in Resources */,
 				5E24F1DA1E476D21004D0FC0 /* number6.png in Resources */,
+				5E401E811E6EFEF5007B9455 /* apple 5.png in Resources */,
+				5E401E821E6EFEF5007B9455 /* apple 6.png in Resources */,
+				5E401E8C1E6F01B0007B9455 /* apple2.png in Resources */,
 				5E24F1D71E476D21004D0FC0 /* number3.png in Resources */,
-				5ECFA19B1E4CE5DF00FB74EF /* apple.png in Resources */,
+				5E401E881E6EFFA3007B9455 /* Main.storyboard in Resources */,
+				5E401E841E6EFEF5007B9455 /* apple 8.png in Resources */,
 				5E24F1D91E476D21004D0FC0 /* number5.png in Resources */,
+				5E401E921E6F02D2007B9455 /* apple.png in Resources */,
+				5E401E7F1E6EFEF5007B9455 /* apple 3.png in Resources */,
 				5E24F1D51E476D21004D0FC0 /* number1.png in Resources */,
+				5E401E901E6F0212007B9455 /* apple9.png in Resources */,
 				5E24F1E61E4776F4004D0FC0 /* play_again.png in Resources */,
+				5E401E801E6EFEF5007B9455 /* apple 4.png in Resources */,
+				5E401E831E6EFEF5007B9455 /* apple 7.png in Resources */,
 				5E5AE2A01E5F81DB00884DE5 /* Top-Header-Grass-Sky-Background-JPG.jpg in Resources */,
 				5E24F1D81E476D21004D0FC0 /* number4.png in Resources */,
 				5E7A5B001E3F764400EE0EFE /* Assets.xcassets in Resources */,
-				5E7A5AFE1E3F764400EE0EFE /* Main.storyboard in Resources */,
 				5E24F1E81E4776F4004D0FC0 /* thumbs_up.png in Resources */,
+				5E401E8E1E6F01F2007B9455 /* apple1.png in Resources */,
 				5E24F1E41E4776F4004D0FC0 /* plate_white.png in Resources */,
 				5E24F1DB1E476D21004D0FC0 /* number7.png in Resources */,
 				5E24F1CB1E476D06004D0FC0 /* number0.png in Resources */,
@@ -383,10 +419,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5E7A5AFC1E3F764400EE0EFE /* Main.storyboard */ = {
+		5E401E861E6EFFA3007B9455 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5E7A5AFD1E3F764400EE0EFE /* Base */,
+				5E401E871E6EFFA3007B9455 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

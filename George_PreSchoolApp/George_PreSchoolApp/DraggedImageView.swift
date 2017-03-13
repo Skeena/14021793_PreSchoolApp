@@ -25,6 +25,10 @@ class DraggedImageView: UIImageView {
         let dy = currentLocation!.y - startLocation!.y
         
         self.center = CGPoint(x: self.center.x+dx, y: self.center.y+dy)
+        
+        
+        
+        
     }
     
     
