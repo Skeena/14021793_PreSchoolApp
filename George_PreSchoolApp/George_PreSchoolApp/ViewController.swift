@@ -7,16 +7,38 @@
 //
 
 import UIKit
+import AVFoundation
 
+var backgroundMusicPlayer = AVAudioPlayer()
+
+func playBackgroundMusic(filename: String){
+    let url = Bundle.main.url(forResource: "Music", withExtension: "wav")
+    guard let newURL = url else {
+        print("Could not find file: \(filename)")
+        return
+    }
+    do {
+        backgroundMusicPlayer = try AVAudioPlayer(contentsOf: newURL)
+        backgroundMusicPlayer.numberOfLoops = -1
+        backgroundMusicPlayer.prepareToPlay()
+        backgroundMusicPlayer.play()
+    } catch let error as NSError {
+        print(error.description)
+    }
+}
 
 class ViewController: UIViewController {
     
+    var audioPlayerCorrect = AVAudioPlayer()
+    var audioPlayerWrong = AVAudioPlayer()
+
     var MyNumbers = [0, 1, 2, 3, 4]
     
     var Num1 = 0
     var Num2 = 0
     var total = 0
     var replay = true
+    
     
     // Star Images
     @IBOutlet weak var star5: UIImageView!
@@ -34,6 +56,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        playBackgroundMusic(filename: "Music")
+        
         congratsView.isHidden = true
         
         Num1 = MyNumbers[Int(arc4random_uniform(4))]
@@ -41,6 +65,23 @@ class ViewController: UIViewController {
         
         total = Num1 + Num2
         resultLabel.text = "\(Num1) + \(Num2) = "
+        
+        let musicWrong = Bundle.main.path(forResource: "Incorrect", ofType: "wav")
+        do {
+            audioPlayerWrong = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: musicWrong!))
+        }
+        catch{
+            print(error)
+        }
+        
+        
+        let musicCorrect = Bundle.main.path(forResource: "Correct", ofType: "wav")
+        do {
+            audioPlayerCorrect = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: musicCorrect!))
+        }
+        catch{
+            print(error)
+        }
 
 
     }
@@ -53,6 +94,7 @@ class ViewController: UIViewController {
     
     @IBAction func Button0(_ sender: UIButton) {
         if total == 0{
+            audioPlayerCorrect.play()
             Num1 = MyNumbers[Int(arc4random_uniform(4))]
             Num2 = MyNumbers[Int(arc4random_uniform(4))]
             
@@ -75,7 +117,6 @@ class ViewController: UIViewController {
                 self.star3.alpha = 1.0
                 self.star4.alpha = 1.0
                 self.star5.alpha = 1.0
-                
             })
             
             
@@ -85,6 +126,7 @@ class ViewController: UIViewController {
         else
         {
             questionMark.textColor = UIColor.red
+            audioPlayerWrong.play()
             
             let bounds = questionMark.bounds
             
@@ -103,6 +145,7 @@ class ViewController: UIViewController {
     
     @IBAction func Number1(_ sender: UIButton) {
         if total == 1{
+            audioPlayerCorrect.play()
             Num1 = MyNumbers[Int(arc4random_uniform(4))]
             Num2 = MyNumbers[Int(arc4random_uniform(4))]
             
@@ -134,6 +177,7 @@ class ViewController: UIViewController {
         else
         {
             questionMark.textColor = UIColor.red
+            audioPlayerWrong.play()
             
             let bounds = questionMark.bounds
             
@@ -155,6 +199,7 @@ class ViewController: UIViewController {
     
     @IBAction func Button2(_ sender: UIButton) {
         if total == 2{
+            audioPlayerCorrect.play()
             Num1 = MyNumbers[Int(arc4random_uniform(4))]
             Num2 = MyNumbers[Int(arc4random_uniform(4))]
             
@@ -185,6 +230,7 @@ class ViewController: UIViewController {
         else
         {
             questionMark.textColor = UIColor.red
+            audioPlayerWrong.play()
             
             let bounds = questionMark.bounds
             
@@ -205,6 +251,7 @@ class ViewController: UIViewController {
     }
     @IBAction func Button3(_ sender: UIButton) {
         if total == 3{
+            audioPlayerCorrect.play()
             Num1 = MyNumbers[Int(arc4random_uniform(4))]
             Num2 = MyNumbers[Int(arc4random_uniform(4))]
             
@@ -236,6 +283,8 @@ class ViewController: UIViewController {
         else
         {
             questionMark.textColor = UIColor.red
+            audioPlayerWrong.play()
+
             
             let bounds = questionMark.bounds
             
@@ -256,6 +305,7 @@ class ViewController: UIViewController {
     }
     @IBAction func Button4(_ sender: UIButton) {
         if total == 4{
+            audioPlayerCorrect.play()
             Num1 = MyNumbers[Int(arc4random_uniform(4))]
             Num2 = MyNumbers[Int(arc4random_uniform(4))]
             
@@ -286,6 +336,8 @@ class ViewController: UIViewController {
         else
         {
             questionMark.textColor = UIColor.red
+            audioPlayerWrong.play()
+
             
             let bounds = questionMark.bounds
             
@@ -306,6 +358,7 @@ class ViewController: UIViewController {
     }
     @IBAction func Button5(_ sender: UIButton) {
         if total == 5{
+            audioPlayerCorrect.play()
             Num1 = MyNumbers[Int(arc4random_uniform(4))]
             Num2 = MyNumbers[Int(arc4random_uniform(4))]
             
@@ -336,6 +389,8 @@ class ViewController: UIViewController {
         else
         {
             questionMark.textColor = UIColor.red
+            audioPlayerWrong.play()
+
             
             let bounds = questionMark.bounds
             
@@ -356,6 +411,7 @@ class ViewController: UIViewController {
     }
     @IBAction func Button6(_ sender: UIButton) {
         if total == 6{
+            audioPlayerCorrect.play()
             Num1 = MyNumbers[Int(arc4random_uniform(4))]
             Num2 = MyNumbers[Int(arc4random_uniform(4))]
             
@@ -386,6 +442,8 @@ class ViewController: UIViewController {
         else
         {
             questionMark.textColor = UIColor.red
+            audioPlayerWrong.play()
+
             
             let bounds = questionMark.bounds
             
@@ -406,6 +464,7 @@ class ViewController: UIViewController {
     }
     @IBAction func Button7(_ sender: UIButton) {
         if total == 7{
+            audioPlayerCorrect.play()
             Num1 = MyNumbers[Int(arc4random_uniform(4))]
             Num2 = MyNumbers[Int(arc4random_uniform(4))]
             
@@ -436,6 +495,8 @@ class ViewController: UIViewController {
         else
         {
             questionMark.textColor = UIColor.red
+            audioPlayerWrong.play()
+
             
             let bounds = questionMark.bounds
             
@@ -456,6 +517,7 @@ class ViewController: UIViewController {
     }
     @IBAction func Button8(_ sender: UIButton) {
         if total == 8{
+            audioPlayerCorrect.play()
             Num1 = MyNumbers[Int(arc4random_uniform(4))]
             Num2 = MyNumbers[Int(arc4random_uniform(4))]
             
@@ -486,6 +548,8 @@ class ViewController: UIViewController {
         else
         {
             questionMark.textColor = UIColor.red
+            audioPlayerWrong.play()
+
             
             let bounds = questionMark.bounds
             
@@ -505,6 +569,7 @@ class ViewController: UIViewController {
     }
     @IBAction func Button9(_ sender: UIButton) {
         if total == 9{
+            audioPlayerCorrect.play()
             Num1 = MyNumbers[Int(arc4random_uniform(4))]
             Num2 = MyNumbers[Int(arc4random_uniform(4))]
             
@@ -536,6 +601,9 @@ class ViewController: UIViewController {
         {
 
             self.questionMark.textColor = UIColor.red
+            audioPlayerWrong.play()
+
+            
             let bounds = questionMark.bounds
             
             UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.1, initialSpringVelocity: 2, options: .curveEaseInOut, animations: {

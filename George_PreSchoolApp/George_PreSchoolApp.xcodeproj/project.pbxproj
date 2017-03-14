@@ -39,6 +39,9 @@
 		5E7A5B031E3F764400EE0EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7A5B011E3F764400EE0EFE /* LaunchScreen.storyboard */; };
 		5E7A5B0E1E3F764400EE0EFE /* George_PreSchoolAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A5B0D1E3F764400EE0EFE /* George_PreSchoolAppTests.swift */; };
 		5E7A5B191E3F764400EE0EFE /* George_PreSchoolAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A5B181E3F764400EE0EFE /* George_PreSchoolAppUITests.swift */; };
+		5E835C071E785DB5002681F1 /* Correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E835C041E785DB5002681F1 /* Correct.wav */; };
+		5E835C081E785DB5002681F1 /* Incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E835C051E785DB5002681F1 /* Incorrect.wav */; };
+		5E835C091E785DB5002681F1 /* Music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E835C061E785DB5002681F1 /* Music.wav */; };
 		5EFF96FE1E4EA55500357AFD /* DraggedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF96FD1E4EA55500357AFD /* DraggedImageView.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +101,9 @@
 		5E7A5B141E3F764400EE0EFE /* George_PreSchoolAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = George_PreSchoolAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7A5B181E3F764400EE0EFE /* George_PreSchoolAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = George_PreSchoolAppUITests.swift; sourceTree = "<group>"; };
 		5E7A5B1A1E3F764400EE0EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E835C041E785DB5002681F1 /* Correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Correct.wav; sourceTree = "<group>"; };
+		5E835C051E785DB5002681F1 /* Incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Incorrect.wav; sourceTree = "<group>"; };
+		5E835C061E785DB5002681F1 /* Music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Music.wav; sourceTree = "<group>"; };
 		5EFF96FD1E4EA55500357AFD /* DraggedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -190,6 +196,7 @@
 			children = (
 				5E24F1E91E4776FE004D0FC0 /* Other Images */,
 				5E24F1DE1E476DB6004D0FC0 /* Number Images */,
+				5E835C0A1E785DB9002681F1 /* Audio Files */,
 				5E7A5AF81E3F764400EE0EFE /* AppDelegate.swift */,
 				5EFF96FD1E4EA55500357AFD /* DraggedImageView.swift */,
 				5E7A5AFA1E3F764400EE0EFE /* ViewController.swift */,
@@ -217,6 +224,16 @@
 				5E7A5B1A1E3F764400EE0EFE /* Info.plist */,
 			);
 			path = George_PreSchoolAppUITests;
+			sourceTree = "<group>";
+		};
+		5E835C0A1E785DB9002681F1 /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E835C041E785DB5002681F1 /* Correct.wav */,
+				5E835C061E785DB5002681F1 /* Music.wav */,
+				5E835C051E785DB5002681F1 /* Incorrect.wav */,
+			);
+			name = "Audio Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E835C081E785DB5002681F1 /* Incorrect.wav in Resources */,
 				5E24F1E71E4776F4004D0FC0 /* star_kids.png in Resources */,
 				5E7A5B031E3F764400EE0EFE /* LaunchScreen.storyboard in Resources */,
 				5E24F1DA1E476D21004D0FC0 /* number6.png in Resources */,
@@ -342,8 +360,10 @@
 				5E401E921E6F02D2007B9455 /* apple.png in Resources */,
 				5E401E7F1E6EFEF5007B9455 /* apple 3.png in Resources */,
 				5E24F1D51E476D21004D0FC0 /* number1.png in Resources */,
+				5E835C091E785DB5002681F1 /* Music.wav in Resources */,
 				5E401E901E6F0212007B9455 /* apple9.png in Resources */,
 				5E24F1E61E4776F4004D0FC0 /* play_again.png in Resources */,
+				5E835C071E785DB5002681F1 /* Correct.wav in Resources */,
 				5E401E801E6EFEF5007B9455 /* apple 4.png in Resources */,
 				5E401E831E6EFEF5007B9455 /* apple 7.png in Resources */,
 				5E5AE2A01E5F81DB00884DE5 /* Top-Header-Grass-Sky-Background-JPG.jpg in Resources */,
