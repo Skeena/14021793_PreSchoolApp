@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import SpriteKit
 
 var backgroundMusicPlayer = AVAudioPlayer()
 
@@ -71,7 +72,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     
         playBackgroundMusic(filename: "Music")
-        
         
         congratsView.isHidden = true
         
@@ -645,15 +645,15 @@ class ViewController: UIViewController {
             screenSizeHeight = UIScreen.main.bounds.size.height
 
             if screenSizeHeight == 736{ // iPhones 6+, 6s+, 7+
-            ap1.frame = CGRect(x: CGFloat(71), y: CGFloat(621), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
+            ap1.frame = CGRect(x: CGFloat(81), y: CGFloat(624), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
             ap2.frame = CGRect(x: CGFloat(193), y: CGFloat(548), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
             ap3.frame = CGRect(x: CGFloat(302), y: CGFloat(609), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-            ap4.frame = CGRect(x: CGFloat(142), y: CGFloat(636), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
+            ap4.frame = CGRect(x: CGFloat(158), y: CGFloat(621), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
             ap5.frame = CGRect(x: CGFloat(260), y: CGFloat(560), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
             ap6.frame = CGRect(x: CGFloat(54), y: CGFloat(545), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-            ap7.frame = CGRect(x: CGFloat(214), y: CGFloat(621), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
+            ap7.frame = CGRect(x: CGFloat(229), y: CGFloat(625), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
             ap8.frame = CGRect(x: CGFloat(126), y: CGFloat(546), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-            ap9.frame = CGRect(x: CGFloat(7), y: CGFloat(609), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
+            ap9.frame = CGRect(x: CGFloat(20), y: CGFloat(597), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
             }
                 
                 else if screenSizeHeight == 667 {   // iPhones 6, 6s, 7
