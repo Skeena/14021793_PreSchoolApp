@@ -8,7 +8,6 @@
 
 import UIKit
 import AVFoundation
-import SpriteKit
 
 var backgroundMusicPlayer = AVAudioPlayer()
 
@@ -646,37 +645,37 @@ class ViewController: UIViewController {
 
             if screenSizeHeight == 736{ // iPhones 6+, 6s+, 7+
             ap1.frame = CGRect(x: CGFloat(81), y: CGFloat(624), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-            ap2.frame = CGRect(x: CGFloat(193), y: CGFloat(548), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-            ap3.frame = CGRect(x: CGFloat(302), y: CGFloat(609), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-            ap4.frame = CGRect(x: CGFloat(158), y: CGFloat(621), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-            ap5.frame = CGRect(x: CGFloat(260), y: CGFloat(560), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-            ap6.frame = CGRect(x: CGFloat(54), y: CGFloat(545), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-            ap7.frame = CGRect(x: CGFloat(229), y: CGFloat(625), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-            ap8.frame = CGRect(x: CGFloat(126), y: CGFloat(546), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-            ap9.frame = CGRect(x: CGFloat(20), y: CGFloat(597), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
+            ap2.frame = CGRect(x: CGFloat(193), y: CGFloat(548), width: CGFloat(ap2.frame.size.width), height: CGFloat(ap2.frame.size.height))
+            ap3.frame = CGRect(x: CGFloat(302), y: CGFloat(609), width: CGFloat(ap3.frame.size.width), height: CGFloat(ap3.frame.size.height))
+            ap4.frame = CGRect(x: CGFloat(158), y: CGFloat(621), width: CGFloat(ap4.frame.size.width), height: CGFloat(ap4.frame.size.height))
+            ap5.frame = CGRect(x: CGFloat(260), y: CGFloat(560), width: CGFloat(ap5.frame.size.width), height: CGFloat(ap5.frame.size.height))
+            ap6.frame = CGRect(x: CGFloat(54), y: CGFloat(545), width: CGFloat(ap6.frame.size.width), height: CGFloat(ap6.frame.size.height))
+            ap7.frame = CGRect(x: CGFloat(229), y: CGFloat(625), width: CGFloat(ap7.frame.size.width), height: CGFloat(ap7.frame.size.height))
+            ap8.frame = CGRect(x: CGFloat(126), y: CGFloat(546), width: CGFloat(ap8.frame.size.width), height: CGFloat(ap8.frame.size.height))
+            ap9.frame = CGRect(x: CGFloat(20), y: CGFloat(597), width: CGFloat(ap9.frame.size.width), height: CGFloat(ap9.frame.size.height))
             }
                 
                 else if screenSizeHeight == 667 {   // iPhones 6, 6s, 7
                 ap1.frame = CGRect(x: CGFloat(64.5), y: CGFloat(563), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                ap2.frame = CGRect(x: CGFloat(176.5), y: CGFloat(496.5), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                ap3.frame = CGRect(x: CGFloat(273.5), y: CGFloat(552), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                ap4.frame = CGRect(x: CGFloat(128.5), y: CGFloat(576.5), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                ap5.frame = CGRect(x: CGFloat(235.5), y: CGFloat(508.5), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                ap6.frame = CGRect(x: CGFloat(49), y: CGFloat(494), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                ap7.frame = CGRect(x: CGFloat(194), y: CGFloat(563), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                ap8.frame = CGRect(x: CGFloat(113.5), y: CGFloat(495), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                ap9.frame = CGRect(x: CGFloat(6.5), y: CGFloat(552), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
+                ap2.frame = CGRect(x: CGFloat(176.5), y: CGFloat(496.5), width: CGFloat(ap2.frame.size.width), height: CGFloat(ap2.frame.size.height))
+                ap3.frame = CGRect(x: CGFloat(273.5), y: CGFloat(552), width: CGFloat(ap3.frame.size.width), height: CGFloat(ap3.frame.size.height))
+                ap4.frame = CGRect(x: CGFloat(128.5), y: CGFloat(576.5), width: CGFloat(ap4.frame.size.width), height: CGFloat(ap4.frame.size.height))
+                ap5.frame = CGRect(x: CGFloat(235.5), y: CGFloat(508.5), width: CGFloat(ap5.frame.size.width), height: CGFloat(ap5.frame.size.height))
+                ap6.frame = CGRect(x: CGFloat(49), y: CGFloat(494), width: CGFloat(ap6.frame.size.width), height: CGFloat(ap6.frame.size.height))
+                ap7.frame = CGRect(x: CGFloat(194), y: CGFloat(563), width: CGFloat(ap7.frame.size.width), height: CGFloat(ap7.frame.size.height))
+                ap8.frame = CGRect(x: CGFloat(113.5), y: CGFloat(495), width: CGFloat(ap8.frame.size.width), height: CGFloat(ap8.frame.size.height))
+                ap9.frame = CGRect(x: CGFloat(6.5), y: CGFloat(552), width: CGFloat(ap9.frame.size.width), height: CGFloat(ap9.frame.size.height))
                 }
                     else if screenSizeHeight == 568 {   // iPhones 5, 5s
                     ap1.frame = CGRect(x: CGFloat(55), y: CGFloat(479.5), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                    ap2.frame = CGRect(x: CGFloat(150.5), y: CGFloat(423), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                    ap3.frame = CGRect(x: CGFloat(233.5), y: CGFloat(470), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                    ap4.frame = CGRect(x: CGFloat(110), y: CGFloat(491), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                    ap5.frame = CGRect(x: CGFloat(201), y: CGFloat(433), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                    ap6.frame = CGRect(x: CGFloat(41.5), y: CGFloat(420.5), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                    ap7.frame = CGRect(x: CGFloat(156.5), y: CGFloat(479.5), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                    ap8.frame = CGRect(x: CGFloat(97.5), y: CGFloat(421.5), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
-                    ap9.frame = CGRect(x: CGFloat(5.5), y: CGFloat(470), width: CGFloat(ap1.frame.size.width), height: CGFloat(ap1.frame.size.height))
+                    ap2.frame = CGRect(x: CGFloat(150.5), y: CGFloat(423), width: CGFloat(ap2.frame.size.width), height: CGFloat(ap2.frame.size.height))
+                    ap3.frame = CGRect(x: CGFloat(233.5), y: CGFloat(470), width: CGFloat(ap3.frame.size.width), height: CGFloat(ap3.frame.size.height))
+                    ap4.frame = CGRect(x: CGFloat(110), y: CGFloat(491), width: CGFloat(ap4.frame.size.width), height: CGFloat(ap4.frame.size.height))
+                    ap5.frame = CGRect(x: CGFloat(201), y: CGFloat(433), width: CGFloat(ap5.frame.size.width), height: CGFloat(ap5.frame.size.height))
+                    ap6.frame = CGRect(x: CGFloat(41.5), y: CGFloat(420.5), width: CGFloat(ap6.frame.size.width), height: CGFloat(ap6.frame.size.height))
+                    ap7.frame = CGRect(x: CGFloat(156.5), y: CGFloat(479.5), width: CGFloat(ap7.frame.size.width), height: CGFloat(ap7.frame.size.height))
+                    ap8.frame = CGRect(x: CGFloat(97.5), y: CGFloat(421.5), width: CGFloat(ap8.frame.size.width), height: CGFloat(ap8.frame.size.height))
+                    ap9.frame = CGRect(x: CGFloat(5.5), y: CGFloat(470), width: CGFloat(ap9.frame.size.width), height: CGFloat(ap9.frame.size.height))
                     }
             congratsView.isHidden = true
             
