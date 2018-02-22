@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="George_PreSchoolApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top-Header-Grass-Sky-Background-JPG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0Qf-mJ-9zS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0NZ-Y3-c2T" userLabel="Button 1">
+                                <rect key="frame" x="7" y="19" width="66.5" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="number0.png">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AZx-vj-yLi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50K-M1-ur4" userLabel="Button 2">
+                                <rect key="frame" x="334" y="19" width="67" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="number4.png">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yfg-lI-q2u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3I-HD-fVs" userLabel="Button 3">
+                                <rect key="frame" x="88" y="19" width="67" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="number1.png">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oBn-2n-eVY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gl3-Lh-8v1" userLabel="Button 4">
+                                <rect key="frame" x="252.5" y="19" width="66.5" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="number3.png">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4qo-aT-7Ex"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bp-4D-3Px">
+                                <rect key="frame" x="170" y="19" width="67" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="number2.png">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ESm-Dk-GkA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXz-Hi-469" userLabel="Button 1">
+                                <rect key="frame" x="334" y="92" width="67" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="number9.png">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x4f-S1-Hol"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6S-VW-hCE" userLabel="Button 1">
+                                <rect key="frame" x="170" y="92" width="67" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="number7.png">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m1i-iw-CRI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wzG-iO-1Yq" userLabel="Button 1">
+                                <rect key="frame" x="88" y="92" width="67" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="number6.png">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o59-cH-kjS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ds-Rc-hjf" userLabel="Button 1">
+                                <rect key="frame" x="7" y="92" width="66.5" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="number5.png">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QHR-SG-A8A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHM-b1-DUl" userLabel="Button 1">
+                                <rect key="frame" x="252.5" y="92" width="66.5" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="number8.png">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cii-xJ-zLF"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 + 7 = " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TbV-8c-Crm">
+                                <rect key="frame" x="53.5" y="168" width="299.5" height="133.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="63"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plate_white.png" translatesAutoresizingMaskIntoConstraints="NO" id="e8h-uG-eJd">
+                                <rect key="frame" x="-14" y="497" width="428" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple 4.png" translatesAutoresizingMaskIntoConstraints="NO" id="X3Z-6S-JG0" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="193" y="548" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple9.png" translatesAutoresizingMaskIntoConstraints="NO" id="pqg-nf-a8T" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="302" y="609" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple 5.png" translatesAutoresizingMaskIntoConstraints="NO" id="qmY-0L-9wh" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="158" y="621" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple 6.png" translatesAutoresizingMaskIntoConstraints="NO" id="6J8-x2-NJE" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="260" y="560" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple 7.png" translatesAutoresizingMaskIntoConstraints="NO" id="AN1-Hz-uMS" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="20" y="597" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple2.png" translatesAutoresizingMaskIntoConstraints="NO" id="B7S-d5-WwR" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="54" y="545" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple 3.png" translatesAutoresizingMaskIntoConstraints="NO" id="QoO-Bx-dzt" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="126" y="546" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple 8.png" translatesAutoresizingMaskIntoConstraints="NO" id="cZK-F0-ydZ" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="229" y="625" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17x-cW-IzI">
+                                <rect key="frame" x="322" y="182.5" width="78" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="78"/>
+                                <color key="textColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple1.png" translatesAutoresizingMaskIntoConstraints="NO" id="oE8-ka-wbm" customClass="DraggedImageView" customModule="George_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="81" y="624" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OAU-Jg-cwV" userLabel="congratsView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bkk-I5-Iqa">
+                                        <rect key="frame" x="152" y="342" width="110" height="105"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="play_again.png"/>
+                                        <connections>
+                                            <action selector="replayButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0hS-EY-Fq7"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="GKl-oo-9ld">
+                                        <rect key="frame" x="20.5" y="515.5" width="123" height="128.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="zfy-Yl-Ye7">
+                                        <rect key="frame" x="35" y="43" width="143.5" height="136"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="ncX-nD-3Nh">
+                                        <rect key="frame" x="256" y="8" width="99" height="98.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ANSWER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3X3-xO-99n">
+                                        <rect key="frame" x="0.0" y="198.5" width="414" height="81.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="64"/>
+                                        <color key="textColor" red="0.062427832749411064" green="0.87484137055837563" blue="0.052111989946161438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="39F-br-vMd">
+                                        <rect key="frame" x="270.5" y="289" width="71" height="72.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thumbs_up.png" translatesAutoresizingMaskIntoConstraints="NO" id="OKe-0u-874">
+                                        <rect key="frame" x="0.0" y="331" width="119" height="116"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="34r-kv-uJR">
+                                        <rect key="frame" x="222.5" y="548" width="167" height="153"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="ap1" destination="oE8-ka-wbm" id="J69-FF-UCz"/>
+                        <outlet property="ap2" destination="X3Z-6S-JG0" id="IOM-4D-EgA"/>
+                        <outlet property="ap3" destination="pqg-nf-a8T" id="Eey-yE-Zyk"/>
+                        <outlet property="ap4" destination="qmY-0L-9wh" id="kGG-YQ-gxe"/>
+                        <outlet property="ap5" destination="6J8-x2-NJE" id="zEm-Ms-D4n"/>
+                        <outlet property="ap6" destination="B7S-d5-WwR" id="VVO-hc-GKn"/>
+                        <outlet property="ap7" destination="cZK-F0-ydZ" id="rS9-hn-bRw"/>
+                        <outlet property="ap8" destination="QoO-Bx-dzt" id="LiP-Zn-0zj"/>
+                        <outlet property="ap9" destination="AN1-Hz-uMS" id="0pl-5J-6kw"/>
+                        <outlet property="congratsResultsLabel" destination="3X3-xO-99n" id="3T4-3g-ZxB"/>
+                        <outlet property="congratsView" destination="OAU-Jg-cwV" id="dPY-PM-PbC"/>
+                        <outlet property="questionMark" destination="17x-cW-IzI" id="e0x-SJ-ZxN"/>
+                        <outlet property="resultLabel" destination="TbV-8c-Crm" id="8cC-cd-RPY"/>
+                        <outlet property="star1" destination="zfy-Yl-Ye7" id="F2N-ni-bD7"/>
+                        <outlet property="star2" destination="ncX-nD-3Nh" id="o8E-zA-D7r"/>
+                        <outlet property="star3" destination="39F-br-vMd" id="qeV-TS-wpP"/>
+                        <outlet property="star4" destination="34r-kv-uJR" id="VyI-Lq-1ue"/>
+                        <outlet property="star5" destination="GKl-oo-9ld" id="fwB-MC-wyL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-463.768115942029" y="108.42391304347827"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Top-Header-Grass-Sky-Background-JPG.jpg" width="3000" height="1984"/>
+        <image name="apple 3.png" width="256" height="256"/>
+        <image name="apple 4.png" width="256" height="256"/>
+        <image name="apple 5.png" width="256" height="256"/>
+        <image name="apple 6.png" width="256" height="256"/>
+        <image name="apple 7.png" width="256" height="256"/>
+        <image name="apple 8.png" width="256" height="256"/>
+        <image name="apple1.png" width="256" height="256"/>
+        <image name="apple2.png" width="256" height="256"/>
+        <image name="apple9.png" width="256" height="256"/>
+        <image name="number0.png" width="256" height="256"/>
+        <image name="number1.png" width="256" height="256"/>
+        <image name="number2.png" width="256" height="256"/>
+        <image name="number3.png" width="256" height="256"/>
+        <image name="number4.png" width="256" height="256"/>
+        <image name="number5.png" width="256" height="256"/>
+        <image name="number6.png" width="256" height="256"/>
+        <image name="number7.png" width="256" height="256"/>
+        <image name="number8.png" width="256" height="256"/>
+        <image name="number9.png" width="256" height="256"/>
+        <image name="plate_white.png" width="1600" height="1200"/>
+        <image name="play_again.png" width="216" height="218"/>
+        <image name="star_kids.png" width="256" height="256"/>
+        <image name="thumbs_up.png" width="256" height="256"/>
+    </resources>
+</document>
